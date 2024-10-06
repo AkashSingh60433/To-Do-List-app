@@ -1,5 +1,8 @@
+// Add the 'red' class to all <input> elements
 $('input').addClass('red');
 
-// Below, only make the .main-button green
+// Add the 'green' class only to the '.main-button' element
+$('.main-button').addClass('green');
 
-// Below, make the text of all buttons yellow
+// Change the text color of all button elements to yellow
+$('button').addClass('text--yellow');
